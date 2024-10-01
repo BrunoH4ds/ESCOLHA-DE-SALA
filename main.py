@@ -1,6 +1,6 @@
 try:
   numero_de_participantes = int(input("coloque o numero de participantes:  "))
-  if numero_de_participantes < 0:
+  if numero_de_participantes <= 0:
     print("numero de participantes invalido")
     exit()
 
